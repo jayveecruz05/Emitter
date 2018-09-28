@@ -1,17 +1,17 @@
 # Emitter
 
-Setup Tutorial
+# Setup Tutorial
 
-Import Custom Emitter
+# Import Custom Emitter
 const emitter = require('./emitter');
 
-Custom Emit Listener
+# Custom Emit Listener
 emitter.on('greet', function() {
     console.log('Hello World!');
 });
 
-Custom Execute Emitter
+# Custom Execute Emitter
 emitter.emit('greet');
 
-Custom Emit Off
+# Custom Emit Off
 emitter.off('greet');
