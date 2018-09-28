@@ -10,8 +10,8 @@ emitter.on('greet', function() {
     console.log('Hello World!');
 });
 
-# Custom Execute Emitter
-emitter.emit('greet');
-
 # Custom Emit Off
 emitter.off('greet');
+
+# Custom Execute Emitter
+emitter.emit('greet');
