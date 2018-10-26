@@ -7,7 +7,7 @@ const emitter = require('./emitter');
 
 # Custom Emit Listener
 emitter.on('greet', function() { <br/>
-    console.log('Hello World!'); <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log('Hello World!'); <br/>
 });
 
 # Custom Emit Off
