@@ -6,8 +6,8 @@
 const emitter = require('./emitter');
 
 # Custom Emit Listener
-emitter.on('greet', function() {
-    console.log('Hello World!');
+emitter.on('greet', function() {/n
+    console.log('Hello World!');/n
 });
 
 # Custom Emit Off
